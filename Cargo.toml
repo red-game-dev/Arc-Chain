@@ -1,7 +1,7 @@
 [workspace]
 members = [
     'node',
-    'pallets/arc',
+    'pallets/nft',
     'runtime',
 ]
 [profile.release]

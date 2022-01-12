@@ -3533,10 +3533,10 @@ dependencies = [
  "frame-system-benchmarking",
  "frame-system-rpc-runtime-api",
  "hex-literal",
- "pallet-arc",
  "pallet-aura",
  "pallet-balances",
  "pallet-grandpa",
+ "pallet-nft",
  "pallet-randomness-collective-flip",
  "pallet-sudo",
  "pallet-timestamp",
@@ -3718,20 +3718,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "pallet-arc"
-version = "4.0.0-dev"
-dependencies = [
- "frame-benchmarking",
- "frame-support",
- "frame-system",
- "parity-scale-codec",
- "scale-info",
- "sp-core",
- "sp-io",
- "sp-runtime",
-]
-
-[[package]]
 name = "pallet-aura"
 version = "4.0.0-dev"
 source = "git+https://github.com/paritytech/substrate.git?tag=devhub/latest#352c46a648a5f2d4526e790a184daa4a1ffdb3bf"
@@ -3798,6 +3784,22 @@ dependencies = [
  "sp-session",
  "sp-staking",
  "sp-std",
+]
+
+[[package]]
+name = "pallet-nft"
+version = "4.0.0-dev"
+dependencies = [
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
+ "log",
+ "parity-scale-codec",
+ "scale-info",
+ "serde",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
